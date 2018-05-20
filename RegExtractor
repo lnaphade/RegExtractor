@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="scripts.js"></script>
+	<script src="xregexp-min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+   <body style="font-family: Tahoma">
+      <h2 style="text-align: center">RegExtractor</h2>
+      <div id="tool-regex-extract-matches" style="text-align: center">
+      	<textarea id="regex-extract-matches-text" style="margin: 0px; width: 479px; height: 232px;"></textarea>
+        <div style="text-align: center">
+        	<br>
+        	<input type="submit" value="Extract Matches!" id="regex-extract-matches-submit" onclick="regexExtract();">
+        </div>
+        <br>
+        <div style="text-align: center">
+        	Javascript Regex:<br><input type="text" value="/([0-9a-f]+)/gi" id="regex-extract-matches-regex">
+        </div>
+      </div>
+   </body>
+</html>
